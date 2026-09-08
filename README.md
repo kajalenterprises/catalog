@@ -14,3 +14,7 @@ The site uses client-side routing, so `/catalog` and product URLs work as GitHub
 
 ## Add product images
 Put images in `assets/products/` using the product code, e.g. `k101.jpg`. If no image exists, the product page shows a clean placeholder.
+
+
+### Deep-link fix
+The included `404.html` preserves direct product URLs such as `/k101` and restores them through `/catalog`, so clicking or opening a product URL on GitHub Pages renders the correct product page instead of an error.
