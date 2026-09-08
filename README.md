@@ -2,7 +2,7 @@
 
 Static GitHub Pages catalog with:
 - `/catalog` — product catalog
-- `/k101`, `/k102`, etc. — individual product pages
+- `/catalog/k101`, `/k102`, etc. — individual product pages
 
 ## Products
 K101, K102, K106, K111, K111F, K113, K122, K131, K132, K201, K202, K203, K213, K301, K302
@@ -17,4 +17,4 @@ Put images in `assets/products/` using the product code, e.g. `k101.jpg`. If no 
 
 
 ### Deep-link fix
-The included `404.html` preserves direct product URLs such as `/k101` and restores them through `/catalog`, so clicking or opening a product URL on GitHub Pages renders the correct product page instead of an error.
+The included `404.html` preserves direct product URLs such as `/catalog/k101` and restores them through `/catalog`, so clicking or opening a product URL on GitHub Pages renders the correct product page instead of an error.
