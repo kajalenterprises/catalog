@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://kajalenterprises.github.io/catalog/sitemap.xml
